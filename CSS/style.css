@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:wheat !important;
+}
+.navbar-custom{  
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 1.5vw;
+    margin-left: -10px;   
+   
+}
+
+
+
+.nav-item{
+    margin: 0 15px;    
+}
+
+.jumbotron-custom{   
+    background-color: rgb(214, 130, 34) !important;    
+    margin-top: -20px; 
+}
+.jumbotron-custom h1{
+    font-family: 'Cinzel Decorative', cursive !important;
+    font-size: 8vw !important;  
+    padding-left: 20%  !important;
+   
+}
+.base{
+    width: 100%;
+    min-height: 100vh;
+    background-color:wheat;
+    position: absolute;
+   
+}
+.top{
+    width: 60%;
+    min-height: 80vh;
+    background-color: rgb(231, 176, 103);
+    position: absolute;
+    z-index: +1;
+    margin-left: 20%;
+    margin-top: -5%;
+}
+.card-custom{
+    margin-left: 100px !important;
+    margin-top: 50px !important;
+    border: transparent !important;
+    background-color: rgb(231, 176, 103) !important;
+    border-bottom: 1px maroon solid !important ;
+}
+footer{
+    font-size:0.8em;
+    position: relative;
+    left: 0px;
+    bottom: 8px;
+    width: 100%;
+	border-top:10px solid #bbc345;
+    background-color:wheat;
+    margin-top: 50px;
+}
+
+footer a{
+	color:maroon;
+}
+footer a:hover{
+	color: white;
+}
+
+footer .fa:hover{
+	color:blue;
+}
+footer .phone
+{
+	font-size:1.3em;
+	font-weight:700;
+}
+footer .navbar-default
+{
+	background:transparent;
+	border:none;
+	border-radius:0px;
+}
+
+.card-title{
+    font-size: xx-large;
+}
+.card-body{
+    font-size: large;
+}
+
+

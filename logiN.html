@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+       <title>login</title>
+       <link rel="stylesheet" href="css/logiN.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+       <meta name="generator" content="Bootply" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	  	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+ 
+   
+     <!-- navbar starts -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">PUBLIC LIBRARY</label>
+        <ul>
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BOOKS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">AUTHORS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item" >
+        <a class="nav-link" style="background-color:peachpuff; color: maroon;" href="login.html" >LOGIN</a>
+      </li>
+      <li class="nav-item " >
+        <a class="nav-link"  href="signUp.html">SIGNUP</a>
+      </li>
+     
+      
+      </ul>
+    </div>
+  </nav>
+ <!-- navbar ends -->
+   
+
+    <!-- <marquee behavior="alternate" direction="right" scrollamount="4"> Login to Explore Kerala</marquee> -->
+   
+    <div class="container">
+      <div class="heading">
+          <h1>Login</h1>
+      </div>
+      <form action="/index2.html" onsubmit="return checkInputs()" class="form" id="form">
+          
+ 
+         <div class="form-control">
+             <label >Username</label> 
+             <input type="text" placeholder="Enter Username" id="username" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+        
+         
+         <div class="form-control">
+             <label >Password</label> 
+             <input type="password" placeholder="Enter your password" id="pswd" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+
+                   
+         
+         <button class="submit" type="submit">Submit</button>
+      <br>
+         <div class="form-control"> 
+            <div class="login-sign">
+              <h5>Need an Account?</h5>
+              <a class="backto" style="text-decoration: none;font-size:large;" href="signup.html">Signup</a>
+            </div>
+          </div>
+      
+      
+        </form>
+     </div>
+      <!-- footer starts here -->
+  <footer >
+    <div class="content container-fluid"  >
+      <div class="row">
+        <div class="col-sm-5">
+          <p >All contents &copy;<strong>https://www.PublicLibrary.org</strong></a><br>All Rights Reserved</p>
+        </div> 
+        
+        <div class="col-md-3">
+          <nav class="navbar navbar-default" role="navigation">
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-google-plus fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+            </div>
+            <div class="col-sm-3">
+            <ul class="nav navbar-nav navbar-right" style="float: right; margin-top: -4% ; margin-right: 10%;">
+              
+              <li><a href="#" style="text-decoration: none;">Terms of Use</a></li><br>
+              <li><a href="#" style="text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div> 
+    </div> 
+    </footer>
+    <!-- /footer -->
+    
+  <script src="./js/login.js"></script>
+</body>
+</html>
+  

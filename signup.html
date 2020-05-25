@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<head>
+       <title>signup</title>
+       <link rel="stylesheet" href="./CSS/signUp.css">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&display=swap" rel="stylesheet">
+       <meta name="generator" content="Bootply" />
+       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		  <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
+	  	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+     <!-- navbar starts -->
+  <nav>
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <i class="fa fa-bars"></i>
+    </label>
+    <label class="logo">PUBLIC LIBRARY</label>
+        <ul>
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">BOOKS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">AUTHORS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">CONTACT</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="login.html" >LOGIN</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link"  style="background-color:peachpuff; color: maroon;" href="#">SIGNUP</a>
+      </li>
+      
+      
+      </ul>
+    </div>
+  </nav>
+ <!-- navbar ends -->
+   
+
+    <marquee behavior="alternate" direction="right" scrollamount="4">Registration is required to access books</marquee>
+   
+
+   
+    <div class="container">
+      <div class="heading">
+          <h1>Create Your Account</h1>
+      </div>
+      <form action="/login.html" onsubmit="return checkInputs()" class="form" id="form">
+          <div class="form-control" >
+              <label >Name</label> 
+              <input type="text" placeholder="Enter your Name" id="name" >
+              <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+              <small>Error message</small>
+          </div>
+          
+ 
+          <div class="form-control" >
+             <label >Email</label> 
+             <input type="email" placeholder="Enter your Email" id="email" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+         
+ 
+         <div class="form-control">
+             <label >Mobile Number</label> 
+             <input type="number" placeholder="Enter your Mobile number" id="mob" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+        
+ 
+         <div class="form-control">
+             <label >Username</label> 
+             <input type="text" placeholder="Want to be called as.." id="username" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+        
+         
+         <div class="form-control">
+             <label >Password</label> 
+             <input type="password" placeholder="Enter your password" id="pswd" >
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+
+         <div class="form-control">
+         <div class="indicator">
+             <p class="strength" id="length"></p>
+         </div></div>
+         
+         
+         <div class="form-control">
+             <label >Check your password</label> 
+             <input type="password" placeholder="Password once again.." id="cpswd">
+             <i class="fa fa-check-square"></i>
+             <i class="fa fa-exclamation-triangle"></i>
+             <small>Error message</small>
+         </div>
+         
+         <button class="submit" type="submit">Submit</button>
+      </form>
+     </div>
+
+      <!-- footer starts here -->
+  <footer>
+    <div class="content container-fluid">
+      <div class="row">
+        <div class="col-sm-5">
+          <p>All contents &copy;<strong>https://www.PublicLibrary.org</strong></a><br>All Rights Reserved</p>
+        </div> 
+        
+        <div class="col-md-3">
+          <nav class="navbar navbar-default" role="navigation">
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-instagram fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-google-plus fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+              <a href="#" target="_blank"><span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-spin"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse fa-spin"></i>
+              </span></a>
+            </div>
+            <div class="col-sm-3" style=" margin-top: -5%; margin-right:10%; ">
+            <ul class="nav navbar-nav navbar-right" style="float: right;">
+              
+              <li><a href="#" style="text-decoration: none;">Terms of Use</a></li><br>
+              <li><a href="#" style="text-decoration: none;">Privacy Policy</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div> 
+    </div> 
+    </footer>
+    <!-- /footer -->
+    
+  <script src="./js/signup.js"></script>
+</body>
+</html>
